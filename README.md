@@ -6,15 +6,15 @@ The different approaches used are:
                           - Item based
    and, K Nearest Neighbor Approach for CF
    
-#Dataset:
+##Dataset:
 The Amazon review dataset is selected for the recommendation model.
 It contains a collection of reviews and ratings from 1995 until 2015 (130M+ customer ratings).
 The dataset is in Tab separated Value(TSV), a text format and is  around 3GB memory size.
 Link for Dataset:
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
 
-#
-#Software Requirements:
+
+##Software Requirements:
 1.Anaconda distribution
 2.Python 3
 3.pandas
@@ -22,14 +22,14 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.ts
 5.sklearn
 6.scikit learn
 
-#
+
 
 To run the python files on HPC, use the following steps:
 module load python3
 python filename.py
 The files can be run on the local machine using jupyter notebook, but requires a huge memory and is time consuming.
 
-#
+
 The  preprocess folder contains the python file for preprocessing of data.
 The models folder contains the python files of content based, userbased nd item based collaborating filtering.
 The preprocessing file gives the output, final_data.csv, which is used for the models.
