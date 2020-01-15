@@ -37,7 +37,7 @@ The preprocessing file gives the output, final_data.csv, which is used for the m
 The different models can be ran using the same command: python filename.py\
 The output of the various models are stored in the .csv files, which are the top recommendations with their similarity scores.
 
-#Authors:
+# Authors:
 Krishna Priya Gajula,
 Lalitha Rakshitha Raviprasad,
 Rishika Lokesh
